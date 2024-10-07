@@ -82,6 +82,29 @@ Version: 1.0.0
   transform: translate(-50%, -50%);
   object-fit: cover; /* Asegura que el video cubra todo el contenedor */
 }
+.vs-product {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.product-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-grow: 1;
+}
+
+.row.vs-carousel .col-xl-3 {
+  display: flex;
+  align-items: stretch;
+}
+
+.product-img {
+  margin-bottom: 20px;
+}
+
 :root {
   --theme-color: #9c55eb;
   --theme-color2: #4b1587;
